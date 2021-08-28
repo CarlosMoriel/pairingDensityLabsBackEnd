@@ -2,9 +2,7 @@ const { response, request } = require("express");
 const { Client } = require("pg");
 const fs = require("fs");
 
-const connectionString =
-	"postgres://uqnabxjg:H0WXSX9p4e4mQYfQ1WLZPusoDw_en3LA@chunee.db.elephantsql.com/uqnabxjg";
-
+const connectionString = ""
 const client = new Client({
 	connectionString,
 });
